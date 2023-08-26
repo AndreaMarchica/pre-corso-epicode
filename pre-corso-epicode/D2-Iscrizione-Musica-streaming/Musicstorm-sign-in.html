@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicStorm Sign Up</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;700&');
+
+     h1 {
+        font-family: 'Handjet', cursive;
+        color: gold;
+        font-size: 50px;
+        text-decoration:underline;
+      }
+
+      h4 {
+        font-family: 'Handjet', cursive;
+        color: goldenrod;
+        font-size: 30px;
+      }
+
+      div {
+        display: list-item;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+      }
+
+      p {
+        font-family: 'Handjet', cursive;
+        color: rgb(111, 255, 21);
+        padding-left: 20px;
+        font-size: 1.5em;
+        margin-bottom: 0;
+      }
+
+     .center {
+       text-align: center;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+     }
+
+     .block{
+        display: block;
+     }
+
+     img {
+        width: 20%;
+        border-radius: 20%;
+        border: 2px solid rgb(255, 255, 255);
+     }
+
+     button{
+        margin-left: 20px;
+        margin-top: 35px;
+     }
+
+     .bgimg {
+       background-image: url("https://wallscloud.net/img/resize/2048/1152/MM/2016-10-06-sound-waves-RPYw.jpg");
+       background-size: cover;
+       background-attachment: fixed;
+       background-repeat: repeat-y;
+     }
+    </style>
+    <link rel="icon" type="image/jpg" sizes="32x32" href="https://img.freepik.com/premium-vector/headphones-with-sound-wave-icon-headset-pictogram-isolated-white-background-online-music-radio_254622-657.jpg?w=2000">
+</head>
+<body class="bgimg">
+    <h1 class="center">MusicStorm</h1>
+    <h4 class="center">Don't miss a beat</h4>
+    <p class="center">Millions of tunes whenever you want in the best audio quality!<br>What are you waiting for? Sign up now!</p>
+ <form onsubmit="alert('Registration completed successfully!')">
+   <div style="padding-left: 0;"> 
+    <div>
+        <input type="text" placeholder="Insert your name">
+    </div>
+    <div>
+        <input type="text" placeholder="Insert your surname">
+    </div>
+    <div>
+        <input type="text" placeholder="Create your nickname">
+    </div>
+    <div>
+        <input type="email" placeholder="Insert your email">
+    </div>
+    <div>
+        <input type="password" placeholder="Insert your password">
+    </div>
+    <div>
+        <input type="password" placeholder="Repeat your password">
+    </div>
+    <div>
+        <input type="date" placeholder="Insert your birth date">
+    </div>
+    <div>
+        <input type="number" placeholder="Insert your phone number">
+    </div></div>
+    <div style="padding-left: 0; display: flex; flex-direction: column; align-items: flex-start;">
+        <p>Choose your preferences</p>
+        <p>Rock</p><input type="checkbox">
+        <p>House</p><input type="checkbox">
+        <p>R&B</p><input type="checkbox">
+        <p>Latin</p><input type="checkbox">
+        <p>Commercial</p><input type="checkbox">
+        <p>Pop</p><input type="checkbox">
+        <p>Electronic</p><input type="checkbox">
+        <p>Hardcore</p><input type="checkbox">
+        <p>Country</p><input type="checkbox">
+        <p>Reggae</p><input type="checkbox">
+    </div>
+    <div class="block">
+        <p style="padding-left: 0";>Accept our <a href="https://policies.google.com/terms?hl=en-US" style="font-family: 'Handjet', cursive; color: yellowgreen;"> Terms of conditions</a></p>
+        <input type="radio">
+    </div>
+    <button type="submit">Sign up</button>
+  </form>
+  <img src="https://www.focus.it/site_stored/imgs/0006/043/ascoltare-musica.1020x680.jpg" class="center">
+</body>
+</html>

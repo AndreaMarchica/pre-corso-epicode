@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+      
+      body, html {
+        height: 100%;
+        margin: 0
+      }
+      
+      h1 {
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: #ffffff;
+        margin-top: 0;
+        padding-top: 15px;
+      }
+
+      p {
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: #ffffff;
+        padding-bottom: 15px;
+      }
+
+      table {
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: #ffffff;
+        padding-bottom: 15px;
+
+      }
+      td, th {
+        padding: 10px;
+      }
+
+      caption {
+        text-align: center;
+      }
+      .center {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      }
+
+      .table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .bgimg {
+       background-image: url("https://www.lorenzozesi.it/wp-content/uploads/2015/10/sfondo-homepage.jpg");
+       background-size: cover;
+       background-attachment: fixed;
+       background-repeat: repeat-y;
+      }
+    </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
+</head>
+<body>
+  <div class="bgimg">
+   <h1>Andrea Marchica</h1>
+  
+   <p>Born in Savona on March 2, 1994</p>
+   
+   <p>I love to travel and explore the world<br>
+    I like sports like soccer, tennis and Formula 1<br>
+    I take care of myself going to the gym and training hard<br>
+    I like to spending time with my dog Zoe<br>
+   </p>
+   <img
+    src="https://media.licdn.com/dms/image/D4E03AQEfvGTEbUujgw/profile-displayphoto-shrink_800_800/0/1676563458281?e=1695254400&v=beta&t=ad_qDiIQmuhqLtwXo1psbv19Rt7Gh4sCiuuTDspJoqo"
+    alt="foto profilo";
+    style="width: 20%;border-radius: 50%; border: 2px solid rgb(255, 255, 255);";
+    title="Too serious..."
+    class="center";
+    />
+    <p><img src="C:\Users\andre\OneDrive\Desktop\pre-corso-epicode\D1-Il-mio-sito-internet\email.png" width="2%"> andrea.marchica94@gmail.com
+     <br><img src="C:\Users\andre\OneDrive\Desktop\pre-corso-epicode\D1-Il-mio-sito-internet\img-cell.png" width="1.5%"> 3703285793<br>
+     <img src="C:\Users\andre\OneDrive\Desktop\pre-corso-epicode\D1-Il-mio-sito-internet\insta-logo.png" width="2%"> <a href="https://www.instagram.com/andrea_marchica/" style=" font-family: 'Orbitron', sans-serif; color: #ffffff;"> andrea_marchica</a></p>
+   <div>
+      <p style="padding-bottom: 0;">I studied at Liceo Classico Chiabrera in Savona specializing in languages, then I immediatly started working</p>
+     <table class="table">
+      <caption></caption>
+      <tr><td>LANGUAGE</td><td>LEVEL</td></tr>
+      <tr><td>English</td><td>B1</td></tr>
+      <tr><td>French</td><td>B1</td></tr>
+      <tr><td>Spanish</td><td>B2</td></tr>
+     </table>
+   </div>
+   <div>
+     <table class="table">
+      <caption></caption>
+      <tr><td>COMPANY</td><td>PERIOD</td></tr>
+      <tr><td>Isat Proget</td><td>2015-2022</td></tr>
+      <tr><td>Generali Italia</td><td>2022-2023</td></tr>
+      <tr><td>Pani Elettricità</td><td>2023</td></tr>
+    </table>
+   </div>
+
+  </div>
+</body>
+</html>
+      
+      
